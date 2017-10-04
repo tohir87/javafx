@@ -13,7 +13,7 @@ import javafx.stage.Stage;
 
 
 // class definition
-public class Example013 extends Application {
+public class Example013Slider extends Application {
 	
 	// init method
 	// Overriden init method

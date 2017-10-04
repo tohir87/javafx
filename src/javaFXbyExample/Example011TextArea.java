@@ -9,7 +9,7 @@ import javafx.beans.value.ObservableValue;
 import javafx.scene.control.TextArea;
 import javafx.stage.Stage;
 
-public class Example011 extends Application {
+public class Example011TextArea extends Application {
 	public void init(){
 		// initialize our layouts and widgets
 		vb_mainlayout = new VBox();

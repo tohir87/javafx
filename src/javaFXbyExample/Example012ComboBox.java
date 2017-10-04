@@ -9,7 +9,7 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
-public class Example012 extends Application {
+public class Example012ComboBox extends Application {
 	// overriden init method
 	@Override
 	public void init(){
