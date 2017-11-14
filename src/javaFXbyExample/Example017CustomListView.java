@@ -39,15 +39,15 @@ public class Example017CustomListView extends Application {
 		
 		// 07 code
 		// set a cell factory in our list view
-		lv_items.setCellFactory(new Callback<ListView<TaskItem>, ListCell<TaskItem>>() {
-			// override to create nre cell items
-			@Override
-			public ListCell<TaskItem> call(ListView<TaskItem>){
-				TaskItemCellRenderer r = new TaskItemCellRenderer(Example017CustomListView.this);
-				r.setEditable(true);
-				return r;
-			}
-		});
+//		lv_items.setCellFactory(new Callback<ListView<TaskItem>, ListCell<TaskItem>>() {
+//			// override to create nre cell items
+//			@Override
+//			public ListCell<TaskItem> call(ListView<TaskItem>){
+//				TaskItemCellRenderer r = new TaskItemCellRenderer(Example017CustomListView.this);
+//				r.setEditable(true);
+//				return r;
+//			}
+//		});
 		
 		// 09 code
 		
